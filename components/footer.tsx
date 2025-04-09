@@ -8,7 +8,11 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-2">
-              <Building2 className="h-6 w-6 text-navy-700" />
+              <img
+                src="/hard-hat.svg"
+                alt="Hard Hat Icon"
+                className="h-8 w-8 text-navy-700"
+              />
               <span className="text-lg font-bold text-navy-700">Structure</span>
             </Link>
             <p className="text-sm text-gray-500">
